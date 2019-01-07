@@ -18,7 +18,11 @@ namespace DatabaseAndSourceControl
                 con.Open();
 
                 //TODO; finish database code...
+
+                // con.Close(); //closes automatically when code finishes running
             }
+
+            throw new NotImplementedException();
 
             //Same as above, but above doesn't do exception handling
             //SqlConnection con = new SqlConnection(connection);
